@@ -1,14 +1,13 @@
 body {
   background-color: #f7f7f7;
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.875em; }
+  font-size: 1.25em; }
 
 .logo {
-  font-size: 1.25em;
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: 400;
   text-align: left;
-  width: 100%;
   line-height: 32px;
   vertical-align: top;
   font-family: 'Open Sans', sans-serif; }
