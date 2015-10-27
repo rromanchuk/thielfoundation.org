@@ -5,9 +5,8 @@ html
     == Slim::Template.new('partials/header.slim').render()
   body
     .container-fluid
-      .row
-        .col-md-offset-1.col-md-8
-          .row
-          	img src="images/jimmy.jpg"
-          	h1 Jimmy Kaltreider
-            p.bio Jimmy is Executive Director at the Thiel Foundation, where he sets strategy and evaluates grants. He is also Principal at Thiel Capital, where he does research. He studied History at Stanford, where he almost graduated.
+      .row.biography
+        .col-md-8.center-block
+          img.img-responsive src="images/jimmy.jpg"
+          h1.names Jimmy Kaltreider
+          p.bio Jimmy is Executive Director at the Thiel Foundation, where he sets strategy and evaluates grants. He is also Principal at Thiel Capital, where he does research. He studied History at Stanford, where he almost graduated.

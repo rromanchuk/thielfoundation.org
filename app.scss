@@ -22,7 +22,17 @@
     float: none;
 }
 
-
+.biography {
+    padding-top: 40px;
+    .names {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 32px;
+        vertical-align: top;
+        font-family: 'Lato', sans-serif;
+    }
+}
 
 //  body {
 //     background-color: #f7f7f7;
