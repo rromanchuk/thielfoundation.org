@@ -2,13 +2,13 @@ doctype html
 html
   head
     title Thiel Foundation
-    == Slim::Template.new('partials/meta.slim').render()
+    == Slim::Template.new('app/partials/meta.slim').render()
   body
     .container-fluid
       .row
-        .col-md-offset-1.col-md-11
+        .col-xs-offset-1.col-xs-11
           .row
-            == Slim::Template.new('partials/header.slim').render()
+            == Slim::Template.new('app/partials/header.slim').render()
           .row
             p Our programs:
             ul
