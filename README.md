@@ -21,9 +21,27 @@ Now install ruby 2.2.2
 $ rbenv install 2.2.2
 ```
 
-### Setup environment configuration
-Create an environment file from the example template and add you aws credentials to the template 
+### Prepare the environment
 
+Download the repo
+```
+$ git clone git@github.com:rromanchuk/thielfoundation.org.git && cd thielfoundation.org
+```
+
+Create an environment file from the example template and add you aws credentials to the template 
 ```
 $ cp .env.example .env
+```
+
+Install the required gems
+```
+$ gem install bundler
+$ bundle install
+```
+
+
+### Deploying to s3 
+
+```
+$ sh deploy.sh
 ```
