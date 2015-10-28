@@ -1,6 +1,6 @@
 # thielfoundation.org
 
-## Install system requirements
+### Install system requirements
 - Ruby 2.2.2, managed via homebrew & rbenv
 - Environment with aws credentials for s3
 
@@ -21,3 +21,9 @@ Now install ruby 2.2.2
 $ rbenv install 2.2.2
 ```
 
+### Setup environment configuration
+Create an environment file from the example template and add you aws credentials to the template 
+
+```
+$ cp .env.example .env
+```
