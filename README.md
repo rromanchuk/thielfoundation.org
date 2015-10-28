@@ -18,6 +18,6 @@ $ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 
 Now install ruby 2.2.2
 ```
-$ rbenv install
+$ rbenv install 2.2.2
 ```
 
