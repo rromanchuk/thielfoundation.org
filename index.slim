@@ -2,17 +2,13 @@ doctype html
 html
   head
     title Thiel Foundation
-    == Slim::Template.new('partials/header.slim').render()
+    == Slim::Template.new('partials/meta.slim').render()
   body
     .container-fluid
       .row
         .col-md-offset-1.col-md-11
           .row
-            header
-              h1.logo
-                span.thiel Thiel 
-                span Foundation
-              p We support science, technology, and long-term thinking about the future.
+            == Slim::Template.new('partials/header.slim').render()
           .row
             p Our programs:
             ul
@@ -25,7 +21,9 @@ html
               li 
                 a href="http://www.imitatio.org/" Imitatio 
                 | — furthering research and application of mimetic theory across the social sciences.
-            p We also back people working on hard problems that won't otherwise get solved. Apply for a grant here.
+            p 
+              | We also back people working on hard problems that won't otherwise get solved. Apply for a grant 
+              a href="http://thielfoundation.submittable.com/submit/22a63844-8af2-449f-adc0-f71d73f18664" here.
             p Please direct press inquiries to ross@torchcommunications.com.
             p 
               | You can read about our team 

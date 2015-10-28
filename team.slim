@@ -2,17 +2,13 @@ doctype html
 html
   head
     title Our team
-    == Slim::Template.new('partials/header.slim').render()
+    == Slim::Template.new('partials/meta.slim').render()
   body
     .container-fluid
       .row
         .col-md-offset-1.col-md-11
           .row
-            header
-              h1.logo
-                span.thiel Thiel 
-                span Foundation
-              p We support science, technology, and long-term thinking about the future.
+            == Slim::Template.new('partials/header.slim').render()
           .row
             p 
               | Founder and Chairman: 

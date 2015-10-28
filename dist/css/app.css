@@ -3,16 +3,22 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.25em; }
 
-.logo {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: 400;
-  text-align: left;
-  line-height: 32px;
-  vertical-align: top; }
-  .logo .thiel {
-    font-size: 2.125em;
-    font-weight: bold; }
+header {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  header .mission {
+    font-weight: 400;
+    font-size: 1.25em; }
+  header .logo {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+    line-height: 32px;
+    vertical-align: top; }
+    header .logo .thiel {
+      font-size: 2.125em;
+      font-weight: bold; }
 
 .center-block {
   float: none; }
