@@ -1,6 +1,6 @@
 s3_id: <%= ENV['S3_ID'] %>
 s3_secret: <%= ENV['S3_SECRET'] %>
-s3_bucket: thielfoundation.org
+s3_bucket: www.thielfoundation.org
 cloudfront_distribution_id: E2E0B04QEX8W40
 
 # Below are examples of all the available configurations.
