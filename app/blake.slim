@@ -3,6 +3,7 @@ html
   head
     title Blake Masters
     == Slim::Template.new('app/partials/meta.slim').render()
+    == Slim::Template.new('app/partials/ga.slim').render()
   body
     .container-fluid
       .row.biography
@@ -13,4 +14,3 @@ html
            | Blake is President of the Thiel Foundation and Principal at Thiel Capital. Prior to co-writing the #1 NYT bestseller 
            a href="http://www.amazon.com/Zero-One-Notes-Start-ups-Future/dp/0804139296 " Zero to One 
            | with Peter Thiel, he co-founded Judicata, a technology startup that makes legal research and analytics software, and worked at Box and Founders Fund. Blake studied at Stanford and Stanford Law School, and lives in San Francisco with his wife and baby boy.
-    == Slim::Template.new('app/partials/ga.slim').render()

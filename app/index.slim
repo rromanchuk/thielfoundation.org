@@ -3,6 +3,7 @@ html
   head
     title Thiel Foundation
     == Slim::Template.new('app/partials/meta.slim').render()
+    == Slim::Template.new('app/partials/ga.slim').render()
   body
     .container-fluid
       .row
@@ -28,5 +29,4 @@ html
             p 
               | You can read about our team 
               a href="team" here.
-    == Slim::Template.new('app/partials/ga.slim').render()
  

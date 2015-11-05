@@ -3,6 +3,7 @@ html
   head
     title Peter Thiel
     == Slim::Template.new('app/partials/meta.slim').render()
+    == Slim::Template.new('app/partials/ga.slim').render()
   body
     .container-fluid
       .row.biography
@@ -12,4 +13,3 @@ html
           p.bio
            | Peter Thiel is an entrepreneur and investor. He started PayPal in 1998, led it as CEO, and took it public in 2002, defining a new era of fast and secure online commerce. In 2004 he made the first outside investment in Facebook, where he serves as a director. The same year he launched Palantir Technologies, a software company that harnesses computers to empower human analysts in fields like national security and global finance. He has provided early funding for LinkedIn, Yelp, and dozens of successful technology startups, many run by former colleagues who have been dubbed the “PayPal Mafia.” He is a partner at Founders Fund, a Silicon Valley venture capital firm that has funded companies like SpaceX and Airbnb. He started the Thiel Fellowship, which ignited a national debate by encouraging young people to put learning before schooling, and he leads the Thiel Foundation, which works to advance technological progress and long-term thinking about the future. Peter is also the #1 New York Times bestselling author of 
            a href="http://www.amazon.com/Zero-One-Notes-Start-ups-Future/dp/0804139296 " Zero to One: Notes on Startups, or How to Build the Future.
-    == Slim::Template.new('app/partials/ga.slim').render()

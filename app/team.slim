@@ -3,6 +3,7 @@ html
   head
     title Our team
     == Slim::Template.new('app/partials/meta.slim').render()
+    == Slim::Template.new('app/partials/ga.slim').render()
   body
     .container-fluid
       .row
@@ -33,4 +34,3 @@ html
              a href="http://www.breakoutlabs.org/about/#section-team" Breakout Labs 
              | / 
              a href="http://www.imitatio.org/about-imitatio/advisory-board.html" Imitatio.
-    == Slim::Template.new('app/partials/ga.slim').render()
