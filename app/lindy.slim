@@ -1,0 +1,17 @@
+lindy.slim
+doctype html
+html
+  head
+    title Lindy Fishburne
+    == Slim::Template.new('app/partials/meta.slim').render()
+    == Slim::Template.new('app/partials/ga.slim').render()
+  body
+    .container-fluid
+      .row.biography
+        .col-md-7.center-block
+          img.img-responsive src="//cdn.thielfoundation.org/images/lindy.jpg"
+          h1.names Lindy Fishburne
+          p.bio 
+          	| Lindy is Senior VP of Investments at the Thiel Foundation. She also runs 
+          	a href="http://breakoutlabs.org" Breakout Labs
+          	| , the Foundation's funding and support mechanism for radical science companies, and brings to the Foundation years of experience in management consulting and non-profit development work.
